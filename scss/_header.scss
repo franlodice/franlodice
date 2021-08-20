@@ -1,0 +1,164 @@
+@import "variables.scss";
+
+/* BARRA MENU */
+header { 
+    margin-top: 1.5rem;
+    margin-left: 2rem;
+}
+.logoNav {
+    width: 80px;
+    height: 45px;
+    padding-top: 0.6rem;
+}
+ul {
+	margin-left: 0.5rem;
+	li {
+		&:hover {
+			ul {
+				display: block;
+			}
+		}
+	}
+}
+li {
+	padding: 0.5rem 0.5rem 0.1rem 0.5rem;
+	text-transform: uppercase;
+}
+.dropdown-menu {
+    background-color: $color-amarillo;
+    border:none;
+}
+.dropdown-item {
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+.textoMenu {
+    color: $color-blanco;
+    font-size: 1.5rem;
+    padding: 0.5rem;
+    text-decoration: none;
+    font-weight: 700;
+}
+.zoomMenu {
+	transition: all 0.3s;
+	&:hover {
+		transform: scale(1.1,1.1);
+	}
+}
+.nav-link-actual {
+	display: block;
+	padding: 0.5rem 1rem;
+	color: $color-amarillo;
+	text-decoration: none;
+	transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
+	&:hover {
+		color: $color-amarillo;
+	}
+}
+.bg-scroll {
+    background-color: rgba(37, 37, 37, 0.8);
+}
+#menu {
+    padding-top: 2rem;
+}
+#menuPages {
+    padding-top: 2rem;
+    background-color: $color-negro;
+}
+
+
+  /* AREA BANNER PRINCIPAL */
+.bannerPrincipal {
+    margin-top: 15rem;
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+    video {
+        position: absolute;
+        top: -1%;
+        z-index: -20;
+        width: ($total-width)-2%;
+        height: auto;
+        visibility: visible;
+    }
+    .bannerMedium  {
+        display: none;
+        position: absolute;
+        top: 1%;
+        z-index: -20;
+        width: ($total-width)-2%;
+        height: auto;
+        opacity: 40%;
+        visibility: visible;
+    }
+
+    .textoBanner {
+        max-width: (65.5rem);
+        flex-wrap: wrap;
+        h1 {
+            color: $color-blanco;
+            font-weight: 900;
+            font-size: 12rem;
+            letter-spacing: 1px;
+            line-height: 10rem;
+        }
+        p {
+            margin-top: 3rem;
+            color:$color-blanco;
+            font-size: 3rem;
+            width: $total-width;
+        }
+    }
+}
+
+.bannerPrincipalPages {  
+    margin-top: 1.5rem;
+    position: relative;
+    display: block;
+    img {
+        width: $total-width;
+        height: 380px;
+    }
+    h1 {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 8rem;
+        font-weight: 900;
+        color:$color-amarillo;
+    }
+
+    .h1Page2 {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 7rem;
+        font-weight: 900;
+        color:$color-amarillo;
+    }
+}
+.primerParrafo {
+    color:$color-blanco;
+    font-size: 3rem;
+    text-align: center;
+    text-transform: initial;
+    line-height: 3rem;
+    margin: 3rem 3rem 1.5rem 2rem; 
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+
+.textoGraciasPage {
+    font-size: 5rem;
+    color:$color-blanco;
+    text-align: center;
+}
+.logoGracias {
+    width: 200px;
+    height: 120px;
+    display: block;
+    margin-top: 4rem;
+    margin-left: 80rem;
+}

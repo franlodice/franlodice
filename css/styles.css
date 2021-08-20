@@ -1,0 +1,633 @@
+@charset "UTF-8";
+/*Botones*/
+/*Boton Banner Principal*/
+.textoBanner button {
+  /*background-color, color, width, height, animated*/
+  background-color: #FFF200;
+  color: #171717;
+  width: 200px;
+  height: 50px;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 700;
+  transition: height 0.5s, width 0.5s;
+  border: none;
+  align-self: center;
+  margin-top: 2rem; }
+  .textoBanner button a {
+    text-decoration: none;
+    font-size: 1.8rem;
+    color: #171717; }
+
+.textoBanner button:hover {
+  width: 25rem;
+  height: 5rem;
+  border: 2px solid;
+  border-color: #FFF200;
+  background-color: #171717; }
+  .textoBanner button:hover a {
+    color: #FFF200;
+    font-size: 2rem; }
+
+/*Boton AreaContenido*/
+.bloqueServicio button {
+  background-color: #FFF200;
+  color: #171717;
+  width: 150px;
+  height: 35px;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 700;
+  transition: height 0.5s, width 0.5s;
+  justify-self: center;
+  margin: 1rem;
+  border: none; }
+  .bloqueServicio button a {
+    text-decoration: none;
+    font-size: 2rem;
+    color: #171717; }
+
+.bloqueServicio button:hover {
+  border: 2px solid #FFF200;
+  background-color: #171717;
+  width: 20rem; }
+  .bloqueServicio button:hover a {
+    color: #FFF200;
+    font-size: 20px; }
+
+/*Botones AreaContacto*/
+.botonBlanco {
+  background-color: #EDEDED;
+  color: #171717;
+  width: 150px;
+  height: 30px;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 700;
+  transition: height 0.5s, width 0.5s;
+  font-size: 2em;
+  border: none; }
+  .botonBlanco:hover {
+    width: 17rem;
+    background-color: #171717;
+    color: #FFF200; }
+
+.barraContactoPage button {
+  background-color: transparent;
+  color: #171717;
+  width: 20rem;
+  height: 3.5rem;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 700;
+  transition: height 0.5s, width 0.5s;
+  font-size: 2rem;
+  border: #171717 2px solid; }
+  .barraContactoPage button:hover {
+    background-color: #171717;
+    border: #FFF200 2px solid;
+    color: #FFF200; }
+
+.modal-footer button {
+  background-color: #FFF200;
+  border: none; }
+  .modal-footer button:hover {
+    background-color: #EDEDED;
+    border: none;
+    text-decoration: none; }
+  .modal-footer button a {
+    color: #171717;
+    text-decoration: none;
+    font-size: 1.6rem;
+    font-weight: 700; }
+
+/* FORMULARIO LLAMADO A LA ACCIÓN */
+.areaContacto {
+  background-image: linear-gradient(to right, #fff200, #ffdc00, #ffc600, #ffb000, #ff9b00); }
+  .areaContacto .textoFormulario {
+    width: auto;
+    margin-top: 4rem;
+    margin-bottom: 1rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem; }
+  .areaContacto form {
+    line-height: 1rem; }
+  .areaContacto h2 {
+    color: #171717;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 5rem;
+    font-size: 6rem;
+    text-align: left;
+    margin-bottom: 0.5rem;
+    margin-top: 0.5rem; }
+  .areaContacto p {
+    color: #171717;
+    font-size: 2rem;
+    text-align: left;
+    text-transform: initial;
+    line-height: 2rem;
+    margin-bottom: 3rem;
+    margin-right: 3rem; }
+  .areaContacto label {
+    font-size: 2rem;
+    line-height: 2rem; }
+  .areaContacto .inputFormulario {
+    width: 90%;
+    height: 3rem;
+    margin-bottom: 0.5rem;
+    transition: width 0.5s, height 0.5s; }
+    .areaContacto .inputFormulario:focus {
+      width: 45rem;
+      height: 3.5rem; }
+
+.barraContactoPage {
+  background-image: linear-gradient(to right, #fff200, #ffdc00, #ffc600, #ffb000, #ff9b00);
+  width: 100%;
+  margin: auto; }
+  .barraContactoPage .textoBarra {
+    padding-top: 2rem;
+    padding-bottom: 2rem; }
+  .barraContactoPage h3 {
+    color: #171717;
+    font-weight: 800;
+    font-size: 4rem;
+    text-align: center;
+    line-height: 4rem; }
+
+/* MODAL */
+.modal-content {
+  background-color: #171717; }
+
+.modal-title {
+  color: #EDEDED;
+  font-weight: 700;
+  font-size: 2rem; }
+
+.modal-body {
+  color: #EDEDED;
+  font-size: 1.6rem; }
+
+/* BARRA MENU */
+header {
+  margin-top: 1.5rem;
+  margin-left: 2rem; }
+
+.logoNav {
+  width: 80px;
+  height: 45px;
+  padding-top: 0.6rem; }
+
+ul {
+  margin-left: 0.5rem; }
+  ul li:hover ul {
+    display: block; }
+
+li {
+  padding: 0.5rem 0.5rem 0.1rem 0.5rem;
+  text-transform: uppercase; }
+
+.dropdown-menu {
+  background-color: #FFF200;
+  border: none; }
+
+.dropdown-item {
+  font-size: 1.2rem;
+  font-weight: 700; }
+
+.textoMenu {
+  color: #EDEDED;
+  font-size: 1.5rem;
+  padding: 0.5rem;
+  text-decoration: none;
+  font-weight: 700; }
+
+.zoomMenu {
+  transition: all 0.3s; }
+  .zoomMenu:hover {
+    transform: scale(1.1, 1.1); }
+
+.nav-link-actual {
+  display: block;
+  padding: 0.5rem 1rem;
+  color: #FFF200;
+  text-decoration: none;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out; }
+  .nav-link-actual:hover {
+    color: #FFF200; }
+
+.bg-scroll {
+  background-color: rgba(37, 37, 37, 0.8); }
+
+#menu {
+  padding-top: 2rem; }
+
+#menuPages {
+  padding-top: 2rem;
+  background-color: #171717; }
+
+/* AREA BANNER PRINCIPAL */
+.bannerPrincipal {
+  margin-top: 15rem;
+  margin-bottom: 2rem;
+  display: flex;
+  flex-direction: column; }
+  .bannerPrincipal video {
+    position: absolute;
+    top: -1%;
+    z-index: -20;
+    width: 98%;
+    height: auto;
+    visibility: visible; }
+  .bannerPrincipal .bannerMedium {
+    display: none;
+    position: absolute;
+    top: 1%;
+    z-index: -20;
+    width: 98%;
+    height: auto;
+    opacity: 40%;
+    visibility: visible; }
+  .bannerPrincipal .textoBanner {
+    max-width: 65.5rem;
+    flex-wrap: wrap; }
+    .bannerPrincipal .textoBanner h1 {
+      color: #EDEDED;
+      font-weight: 900;
+      font-size: 12rem;
+      letter-spacing: 1px;
+      line-height: 10rem; }
+    .bannerPrincipal .textoBanner p {
+      margin-top: 3rem;
+      color: #EDEDED;
+      font-size: 3rem;
+      width: 100%; }
+
+.bannerPrincipalPages {
+  margin-top: 1.5rem;
+  position: relative;
+  display: block; }
+  .bannerPrincipalPages img {
+    width: 100%;
+    height: 380px; }
+  .bannerPrincipalPages h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 8rem;
+    font-weight: 900;
+    color: #FFF200; }
+  .bannerPrincipalPages .h1Page2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 7rem;
+    font-weight: 900;
+    color: #FFF200; }
+
+.primerParrafo {
+  color: #EDEDED;
+  font-size: 3rem;
+  text-align: center;
+  text-transform: initial;
+  line-height: 3rem;
+  margin: 3rem 3rem 1.5rem 2rem;
+  padding-left: 5rem;
+  padding-right: 5rem; }
+
+.textoGraciasPage {
+  font-size: 5rem;
+  color: #EDEDED;
+  text-align: center; }
+
+.logoGracias {
+  width: 200px;
+  height: 120px;
+  display: block;
+  margin-top: 4rem;
+  margin-left: 80rem; }
+
+/* AREA FOOTER */
+footer {
+  width: 100%;
+  margin: 2rem 0rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap; }
+  footer .redesNav {
+    padding: 1.7rem 0rem; }
+    footer .redesNav a img {
+      width: 20px;
+      height: 20px;
+      padding: 0rem 0.05rem;
+      margin-left: 0.2rem; }
+  footer .logoFooter {
+    width: 4rem;
+    height: 5rem; }
+  footer p {
+    color: #EDEDED;
+    padding: 0rem 1rem;
+    font-weight: 100;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    margin-left: 1.5rem;
+    text-align: center; }
+
+/* AREA CONTENIDO HOME */
+h2 {
+  color: #FFF200;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 5rem;
+  font-size: 8rem;
+  margin-top: 35rem;
+  text-align: center; }
+
+.bloqueServicio {
+  margin: 1rem 0rem 1rem 1.5rem;
+  justify-content: center; }
+  .bloqueServicio img {
+    width: 95%;
+    height: 95%;
+    transition: height 0.5s, width 0.5s; }
+    .bloqueServicio img:hover {
+      height: 100%;
+      width: 100%; }
+  .bloqueServicio p {
+    color: #EDEDED;
+    font-size: 2rem;
+    text-align: center;
+    text-transform: initial; }
+  .bloqueServicio h2 {
+    color: #FFF200;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 5rem;
+    font-size: 4rem;
+    text-align: center;
+    margin-top: 0px; }
+  .bloqueServicio h3 {
+    color: #FFF200;
+    font-size: 6rem;
+    line-height: 50px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 1rem; }
+
+/* ERROR 404 */
+.bloqueError {
+  margin-top: 9rem; }
+  .bloqueError .imagenError {
+    width: 40rem; }
+  .bloqueError h1 {
+    font-size: 5rem;
+    color: #FFF200;
+    font-weight: 900; }
+  .bloqueError p {
+    font-size: 2rem;
+    color: #EDEDED;
+    font-weight: 700;
+    text-align: right; }
+  .bloqueError .imagenLogo {
+    width: 7rem; }
+
+html {
+  font-size: 62.5%; }
+
+/* ESTRUCTURA DE BODY HOME */
+body {
+  font-family: 'Saira', sans-serif;
+  background-color: #171717; }
+
+.container-fluid {
+  padding: 0 3rem 0 3rem; }
+
+.container-fluid-total {
+  padding: 0; }
+
+/* -------------------RESPONSIVE - Hasta 1400px ------------------------ */
+@media only screen and (max-width: 1400px) and (min-width: 1200px) {
+  html {
+    font-size: 60%; }
+  .bannerPrincipal {
+    margin-top: 9rem; }
+    .bannerPrincipal video {
+      width: 97.8%; }
+  /* BANNER PAGES */
+  .primerParrafo {
+    text-align: center;
+    padding-left: 1rem;
+    padding-right: 1rem; }
+  /* AREA CONTENIDO */
+  h2 {
+    margin-top: 25rem; }
+  /* AREA CONTACTO */
+  .barraContactoPage {
+    width: 100%;
+    align-content: center; }
+    .barraContactoPage h3 {
+      color: #171717;
+      font-weight: 800;
+      line-height: 4rem; } }
+
+/* -------------------RESPONSIVE - Hasta 1200px ------------------------ */
+@media only screen and (max-width: 1199px) and (min-width: 768px) {
+  html {
+    font-size: 55%; }
+  .navbar-nav {
+    align-content: right; }
+  /* BANNER HOME */
+  .bannerPrincipal {
+    align-items: center;
+    margin-top: 10rem; }
+    .bannerPrincipal .bannerMedium {
+      display: block;
+      top: 1%; }
+    .bannerPrincipal .textoBanner {
+      text-align: center; }
+      .bannerPrincipal .textoBanner h1 {
+        line-height: 12rem;
+        text-align: center; }
+      .bannerPrincipal .textoBanner button {
+        width: 90%;
+        margin-top: 2.5rem; }
+      .bannerPrincipal .textoBanner button:hover {
+        width: 100%; }
+  /* BANNER PAGE */
+  .bannerPrincipalPages .h1Page2 {
+    font-size: 6rem;
+    text-align: center; }
+  .primerParrafo {
+    text-align: center;
+    text-transform: initial;
+    padding-left: 1rem;
+    padding-right: 1rem; }
+  /* AREA CONTENIDO */
+  h2 {
+    margin-top: 15rem; }
+  .bloqueServicio {
+    margin-top: 7rem;
+    margin-bottom: 7rem; }
+  /* AREA CONTACTO */
+  .barraContactoPage {
+    width: 100%;
+    align-content: center; }
+    .barraContactoPage h3 {
+      color: #171717;
+      font-weight: 800;
+      line-height: 4rem; } }
+
+/* -------------------RESPONSIVE - Hasta 768px ------------------------ */
+@media only screen and (max-width: 767px) and (min-width: 577px) {
+  html {
+    font-size: 45%; }
+  /* BANNER HOME */
+  .bannerPrincipal {
+    align-items: center; }
+    .bannerPrincipal video {
+      display: none; }
+    .bannerPrincipal .bannerMedium {
+      display: block;
+      top: 10%; }
+    .bannerPrincipal .textoBanner {
+      text-align: center; }
+      .bannerPrincipal .textoBanner h1 {
+        line-height: 12rem; }
+      .bannerPrincipal .textoBanner button {
+        width: 90%;
+        margin-top: 1rem; }
+      .bannerPrincipal .textoBanner button:hover {
+        width: 100%; }
+  /*BANNER Pages*/
+  .bannerPrincipalPages {
+    text-align: center; }
+    .bannerPrincipalPages img {
+      visibility: hidden; }
+  .primerParrafo {
+    text-align: center;
+    text-transform: initial;
+    width: 90%;
+    margin-top: -80px;
+    margin-left: 25px; }
+  /* AREA CONTENIDO */
+  h2 {
+    margin-top: 15rem; }
+  .bloqueServicio p {
+    text-align: center;
+    padding-bottom: 2rem; }
+  /* AREA CONTACTO */
+  .areaContacto {
+    margin-top: 1rem;
+    align-content: center; }
+    .areaContacto h2 {
+      text-align: center;
+      margin-bottom: 2rem; }
+    .areaContacto p {
+      text-align: center; }
+    .areaContacto form {
+      text-align: center; }
+  .barraContactoPage {
+    width: 100%;
+    align-content: center; }
+    .barraContactoPage h3 {
+      color: #171717;
+      font-weight: 800;
+      line-height: 4rem; } }
+
+/* -------------------RESPONSIVE - Hasta 576px ------------------------ */
+@media only screen and (max-width: 576px) {
+  html {
+    font-size: 35%; }
+  /*BANNER HOME*/
+  .bannerPrincipal {
+    align-items: center; }
+    .bannerPrincipal video {
+      display: none; }
+    .bannerPrincipal .textoBanner {
+      text-align: center; }
+      .bannerPrincipal .textoBanner h1 {
+        line-height: 14rem; }
+      .bannerPrincipal .textoBanner button {
+        width: 90%; }
+        .bannerPrincipal .textoBanner button:hover {
+          width: 100%; }
+  /*BANNER PAGES*/
+  .bannerPrincipalPages {
+    margin-top: 1.5rem;
+    text-align: center; }
+    .bannerPrincipalPages img {
+      visibility: hidden;
+      width: 100%;
+      height: 30%; }
+    .bannerPrincipalPages h1 {
+      font-size: 6rem;
+      margin-bottom: 0px;
+      width: 100%; }
+    .bannerPrincipalPages .h1Page2 {
+      font-size: 35px;
+      margin-top: 25px; }
+  .primerParrafo {
+    color: #EDEDED;
+    text-align: center;
+    text-transform: initial;
+    line-height: 3.5rem;
+    width: 95%;
+    margin-left: 3rem; }
+  /* AREA CONTENIDO */
+  .bloqueServicio {
+    margin: 5rem 0rem 5rem 2.5rem;
+    width: 95%; }
+    .bloqueServicio h2 {
+      text-align: center;
+      width: 100%; }
+    .bloqueServicio p {
+      color: #EDEDED;
+      text-align: center;
+      text-transform: initial;
+      width: 95%; }
+  /* AREA CONTACTO */
+  .areaContacto h2 {
+    text-align: center;
+    padding-bottom: 1rem; }
+  .areaContacto p {
+    text-align: center; }
+  .areaContacto form {
+    text-align: center; }
+    .areaContacto form .botonBlanco {
+      margin-bottom: 1rem; }
+  .barraContactoPage {
+    width: 100%;
+    align-content: center; }
+    .barraContactoPage h3 {
+      color: #171717;
+      font-weight: 800;
+      line-height: 4rem; }
+    .barraContactoPage button {
+      align-content: center; }
+      .barraContactoPage button:hover {
+        background-color: #171717;
+        border: #FFF200 2px solid;
+        color: #FFF200; }
+  /* AREA FOOTER */
+  footer {
+    padding-left: 2rem;
+    padding-right: 2rem; } }
+
+/* GENERAL */
+* {
+  box-sizing: border-box; }

@@ -1,0 +1,70 @@
+@import "variables.scss";
+
+/* AREA CONTENIDO HOME */
+h2 {
+    @include subtitulos ($color-amarillo);
+    font-size: 8rem;
+    margin-top: 35rem;
+    text-align: center;
+}
+
+.bloqueServicio {
+    margin: 1rem 0rem 1rem 1.5rem;
+    justify-content: center;
+
+    img {
+        width: ($total-width)-5%;
+        height: ($total-width)-5%;
+        transition: height 0.5s, width 0.5s;
+        &:hover {
+            height: 100%;
+            width: 100%;
+        }
+    }
+    p {
+        color:$color-blanco;
+        font-size: 2rem;
+        text-align: center;
+        text-transform: initial;
+    }
+    h2 {
+        @include subtitulos ($color-amarillo);
+        font-size: 4rem;
+        text-align: center;
+        margin-top: 0px;
+    }
+    h3 {
+        color:$color-amarillo;
+        font-size: 6rem;
+        line-height: 50px;
+        font-weight: 700;
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+}
+
+/* ERROR 404 */
+.bloqueError {
+    margin-top: 9rem;
+
+    .imagenError {
+        width: 40rem;
+    }
+    h1 {
+        font-size: 5rem;
+        color: $color-amarillo;
+        font-weight: 900;
+
+    }
+    p {
+        font-size: 2rem;
+        color: $color-blanco;
+        font-weight: 700;
+        text-align: right;
+    }
+
+    .imagenLogo {
+        width: 7rem;
+    }
+}
+

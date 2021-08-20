@@ -1,0 +1,29 @@
+// Colores //
+$color-amarillo: #FFF200;
+$color-negro: #171717;
+$color-blanco: #EDEDED;
+$total-width: 100%;
+
+@mixin boton ($background-color, $color, $width, $height, $animated){
+    background-color: $background-color;
+    color:$color;
+    width: $width;
+    height: $height;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+
+    @if($animated == 'active'){
+        transition: height 0.5s, width 0.5s;
+    }  
+}
+
+@mixin subtitulos ($color){
+    color:$color;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 5rem;
+}  

@@ -1,0 +1,81 @@
+@import "variables.scss";
+
+/* FORMULARIO LLAMADO A LA ACCIÓN */ 
+
+.areaContacto {
+    background-image: linear-gradient(to right, #fff200, #ffdc00, #ffc600, #ffb000, #ff9b00);
+
+    .textoFormulario {
+        width: auto;
+        margin-top: 4rem;
+        margin-bottom: 1rem;
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+    }
+
+    form {
+        line-height: 1rem;
+    }
+    h2 {
+        @include subtitulos ($color-negro);
+        font-size: 6rem;
+        text-align: left;
+        margin-bottom: 0.5rem;
+        margin-top: 0.5rem;
+    }
+    p {
+        color: $color-negro;
+        font-size: 2rem;
+        text-align: left;
+        text-transform: initial;
+        line-height: 2rem;
+        margin-bottom: 3rem;
+        margin-right: 3rem;
+    }
+    label {
+        font-size: 2rem;
+        line-height: 2rem;
+    }
+    .inputFormulario {
+        width: ($total-width)-10%;
+        height: 3rem;
+        margin-bottom: 0.5rem;
+        transition: width 0.5s, height 0.5s;
+        &:focus {
+            width: 45rem;
+            height: 3.5rem;
+        }
+    }       
+}
+
+.barraContactoPage {
+    background-image: linear-gradient(to right, #fff200, #ffdc00, #ffc600, #ffb000, #ff9b00);
+    width: $total-width;
+    margin: auto;
+
+    .textoBarra {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+    h3 {
+        color:$color-negro;
+        font-weight: 800;
+        font-size: 4rem;
+        text-align: center;
+        line-height: 4rem;
+    }   
+}
+
+/* MODAL */
+.modal-content {
+    background-color: $color-negro;
+}
+.modal-title {
+    color: $color-blanco;
+    font-weight: 700;
+    font-size: 2rem;
+}
+.modal-body {
+    color:$color-blanco;
+    font-size: 1.6rem;
+}

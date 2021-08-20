@@ -1,0 +1,106 @@
+@import "variables.scss";
+/*Botones*/
+
+    /*Boton Banner Principal*/
+    .textoBanner {
+        button {
+                            /*background-color, color, width, height, animated*/
+            @include boton ($color-amarillo, $color-negro, 200px, 50px, 'active');
+            border: none;
+            align-self: center;
+            margin-top: 2rem;
+
+            a {
+                text-decoration: none;
+                font-size: 1.8rem;
+                color: $color-negro;
+            }
+        }
+        button:hover {
+            width: 25rem;
+            height: 5rem;
+            border: 2px solid;
+            border-color: $color-amarillo;
+            background-color: $color-negro;
+
+            a {
+                color:$color-amarillo;
+                font-size: 2rem;
+            }
+        }
+    }
+
+        /*Boton AreaContenido*/
+    .bloqueServicio {
+        button {
+            @include boton ($color-amarillo, $color-negro, 150px, 35px, 'active');
+            justify-self: center;
+            margin: 1rem;
+            border: none;
+            a {
+                text-decoration: none;
+                font-size: 2rem;
+                color: $color-negro;
+            }
+        }
+        button:hover {
+            border: 2px solid $color-amarillo;
+            background-color: $color-negro;
+            width: 20rem;
+            a {
+                color:$color-amarillo;
+                font-size: 20px;
+            }
+        }
+    }
+
+        /*Botones AreaContacto*/
+    .botonBlanco {
+        @include boton ($color-blanco, $color-negro, 150px, 30px, 'active');
+        font-size: 2em;
+        border: none;
+        &:hover {
+            width: 17rem;
+            background-color: $color-negro;
+            color: $color-amarillo;
+        }
+    }
+
+    .barraContactoPage {
+        button {
+            @include boton (transparent, $color-negro, 20rem, 3.5rem, 'active');
+            font-size: 2rem;
+            border: $color-negro 2px solid;
+            &:hover {
+                background-color: $color-negro;
+                border: $color-amarillo 2px solid;
+                color: $color-amarillo;
+            }
+        }
+    }
+    .modal-footer {    
+        button {
+            background-color: $color-amarillo;
+            border: none;
+            &:hover {
+                background-color: $color-blanco;
+                border: none;
+                text-decoration:none;
+            }
+            a {
+                color: $color-negro;
+                text-decoration: none;
+                font-size: 1.6rem;
+                font-weight: 700;
+            }
+        }
+    }
+
+    
+
+    
+
+    
+
+    
+    
