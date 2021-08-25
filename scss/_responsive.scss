@@ -206,6 +206,7 @@
 
             h1 {
                 line-height: 14rem;
+                font-size: 10rem;
             }
 
             button {
@@ -246,7 +247,11 @@
     }
 
     /* AREA CONTENIDO */
-
+    h2 {
+        text-align: center;
+        width: 100%;
+        margin-top: 20rem;
+    }
     .bloqueServicio {
         margin: 5rem 0rem 5rem 2.5rem;
         width: 95%;
@@ -288,14 +293,6 @@
             color: $color-negro;
             font-weight: 800;
             line-height: 4rem;
-        }
-        button {
-            align-content: center;
-            &:hover {
-                background-color: $color-negro;
-                border: $color-amarillo 2px solid;
-                color: $color-amarillo;
-            }
         }
     }
     /* AREA FOOTER */

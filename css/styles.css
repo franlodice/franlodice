@@ -21,16 +21,15 @@
     text-decoration: none;
     font-size: 1.8rem;
     color: #171717; }
-
-.textoBanner button:hover {
-  width: 25rem;
-  height: 5rem;
-  border: 2px solid;
-  border-color: #FFF200;
-  background-color: #171717; }
-  .textoBanner button:hover a {
-    color: #FFF200;
-    font-size: 2rem; }
+  .textoBanner button:hover {
+    width: 25rem;
+    height: 5rem;
+    border: 2px solid;
+    border-color: #FFF200;
+    background-color: #171717; }
+    .textoBanner button:hover a {
+      color: #FFF200;
+      font-size: 2rem; }
 
 /*Boton AreaContenido*/
 .bloqueServicio button {
@@ -52,14 +51,13 @@
     text-decoration: none;
     font-size: 2rem;
     color: #171717; }
-
-.bloqueServicio button:hover {
-  border: 2px solid #FFF200;
-  background-color: #171717;
-  width: 20rem; }
-  .bloqueServicio button:hover a {
-    color: #FFF200;
-    font-size: 20px; }
+  .bloqueServicio button:hover {
+    border: 2px solid #FFF200;
+    background-color: #171717;
+    width: 20rem; }
+    .bloqueServicio button:hover a {
+      color: #FFF200;
+      font-size: 20px; }
 
 /*Botones AreaContacto*/
 .botonBlanco {
@@ -93,25 +91,18 @@
   text-transform: uppercase;
   font-weight: 700;
   transition: height 0.5s, width 0.5s;
+  align-self: center;
   font-size: 2rem;
   border: #171717 2px solid; }
-  .barraContactoPage button:hover {
-    background-color: #171717;
-    border: #FFF200 2px solid;
-    color: #FFF200; }
-
-.modal-footer button {
-  background-color: #FFF200;
-  border: none; }
-  .modal-footer button:hover {
-    background-color: #EDEDED;
-    border: none;
-    text-decoration: none; }
-  .modal-footer button a {
-    color: #171717;
+  .barraContactoPage button a {
     text-decoration: none;
-    font-size: 1.6rem;
-    font-weight: 700; }
+    font-size: 1.8rem;
+    color: #171717; }
+  .barraContactoPage button:hover {
+    background-color: #171717; }
+    .barraContactoPage button:hover a {
+      color: #FFF200;
+      font-size: 2rem; }
 
 /* FORMULARIO LLAMADO A LA ACCIÓN */
 .areaContacto {
@@ -166,19 +157,6 @@
     font-size: 4rem;
     text-align: center;
     line-height: 4rem; }
-
-/* MODAL */
-.modal-content {
-  background-color: #171717; }
-
-.modal-title {
-  color: #EDEDED;
-  font-weight: 700;
-  font-size: 2rem; }
-
-.modal-body {
-  color: #EDEDED;
-  font-size: 1.6rem; }
 
 /* BARRA MENU */
 header {
@@ -561,7 +539,8 @@ body {
     .bannerPrincipal .textoBanner {
       text-align: center; }
       .bannerPrincipal .textoBanner h1 {
-        line-height: 14rem; }
+        line-height: 14rem;
+        font-size: 10rem; }
       .bannerPrincipal .textoBanner button {
         width: 90%; }
         .bannerPrincipal .textoBanner button:hover {
@@ -589,6 +568,10 @@ body {
     width: 95%;
     margin-left: 3rem; }
   /* AREA CONTENIDO */
+  h2 {
+    text-align: center;
+    width: 100%;
+    margin-top: 20rem; }
   .bloqueServicio {
     margin: 5rem 0rem 5rem 2.5rem;
     width: 95%; }
@@ -617,12 +600,6 @@ body {
       color: #171717;
       font-weight: 800;
       line-height: 4rem; }
-    .barraContactoPage button {
-      align-content: center; }
-      .barraContactoPage button:hover {
-        background-color: #171717;
-        border: #FFF200 2px solid;
-        color: #FFF200; }
   /* AREA FOOTER */
   footer {
     padding-left: 2rem;
