@@ -147,7 +147,7 @@
 .barraContactoPage {
   background-image: linear-gradient(to right, #fff200, #ffdc00, #ffc600, #ffb000, #ff9b00);
   width: 100%;
-  margin: auto; }
+  margin-top: 3rem; }
   .barraContactoPage .textoBarra {
     padding-top: 2rem;
     padding-bottom: 2rem; }
@@ -259,7 +259,7 @@ li {
   display: block; }
   .bannerPrincipalPages img {
     width: 100%;
-    height: 380px; }
+    height: 400px; }
   .bannerPrincipalPages h1 {
     position: absolute;
     top: 50%;
