@@ -1,14 +1,18 @@
 @import "botones.scss";
 @import "formularios.scss";
-@import "header.scss";
 @import "footer.scss";
 @import "contenido.scss";
 @import "estructura.scss";
 @import "variables.scss";
+@import "header.scss";
 @import "responsive.scss";
 
 /* GENERAL */
 * {
     box-sizing: border-box;
+}
+body {
+    font-family: 'Saira', sans-serif;
+    background-color: $color-negro;
 }
 

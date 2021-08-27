@@ -9,16 +9,16 @@ h2 {
 }
 
 .bloqueServicio {
-    margin: 1rem 0rem 1rem 1.5rem;
+    margin: 5rem 0rem 5rem 1.5rem;
     justify-content: center;
 
     img {
-        width: ($total-width)-5%;
-        height: ($total-width)-5%;
+        width: ($total-width)-15%;
+        height: ($total-width)-15%;
         transition: height 0.5s, width 0.5s;
         &:hover {
-            height: 100%;
-            width: 100%;
+            height: 87%;
+            width: 87%;
         }
     }
     p {
@@ -31,7 +31,8 @@ h2 {
         @include subtitulos ($color-amarillo);
         font-size: 4rem;
         text-align: center;
-        margin-top: 0px;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
     }
     h3 {
         color:$color-amarillo;

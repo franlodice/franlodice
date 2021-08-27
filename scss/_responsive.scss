@@ -12,8 +12,13 @@
                 width: 97.8%;
             }
     }
-
     /* BANNER PAGES */
+    .bannerPrincipalPages {  
+        img {
+            width: $total-width;
+            height: 400px;
+        }
+    }
     .primerParrafo {
         text-align: center;
         padding-left: 1rem;
@@ -71,6 +76,10 @@
     }
     /* BANNER PAGE */
     .bannerPrincipalPages {
+        img {
+            width: $total-width;
+            height: 300px;
+        }
         .h1Page2 {
             font-size: 6rem;
             text-align: center;
@@ -241,7 +250,7 @@
         color:$color-blanco;
         text-align: center;
         text-transform: initial;
-        line-height: 3.5rem;
+        line-height: 4rem;
         width: 95%;
         margin-left: 3rem;
     }

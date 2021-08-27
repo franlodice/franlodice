@@ -11,14 +11,7 @@ header {
     padding-top: 0.6rem;
 }
 ul {
-	margin-left: 0.5rem;
-	li {
-		&:hover {
-			ul {
-				display: block;
-			}
-		}
-	}
+	padding: 0.5rem 0.5rem 0.1rem 0.5rem;
 }
 li {
 	padding: 0.5rem 0.5rem 0.1rem 0.5rem;
@@ -32,6 +25,7 @@ li {
     font-size: 1.2rem;
     font-weight: 700;
 }
+
 .textoMenu {
     color: $color-blanco;
     font-size: 1.5rem;
@@ -40,14 +34,14 @@ li {
     font-weight: 700;
 }
 .zoomMenu {
-	transition: all 0.3s;
+	transition: all 0.1s;
 	&:hover {
-		transform: scale(1.1,1.1);
+		transform: scale(1.05,1.05);
 	}
 }
 .nav-link-actual {
 	display: block;
-	padding: 0.5rem 1rem;
+	padding: 0.5rem;
 	color: $color-amarillo;
 	text-decoration: none;
 	transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
@@ -117,7 +111,7 @@ li {
     display: block;
     img {
         width: $total-width;
-        height: 400px;
+        height: 550px;
     }
     h1 {
         position: absolute;
@@ -144,8 +138,8 @@ li {
     font-size: 3rem;
     text-align: center;
     text-transform: initial;
-    line-height: 3rem;
-    margin: 3rem 3rem 1.5rem 2rem; 
+    line-height: 4rem;
+    margin: 5rem 3rem 7rem 2rem; 
     padding-left: 5rem;
     padding-right: 5rem;
 }

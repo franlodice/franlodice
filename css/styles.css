@@ -129,7 +129,7 @@
     font-size: 2rem;
     text-align: left;
     text-transform: initial;
-    line-height: 2rem;
+    line-height: 3rem;
     margin-bottom: 3rem;
     margin-right: 3rem; }
   .areaContacto label {
@@ -147,7 +147,7 @@
 .barraContactoPage {
   background-image: linear-gradient(to right, #fff200, #ffdc00, #ffc600, #ffb000, #ff9b00);
   width: 100%;
-  margin-top: 3rem; }
+  margin-top: 5rem; }
   .barraContactoPage .textoBarra {
     padding-top: 2rem;
     padding-bottom: 2rem; }
@@ -157,6 +157,102 @@
     font-size: 4rem;
     text-align: center;
     line-height: 4rem; }
+
+/* AREA FOOTER */
+footer {
+  width: 100%;
+  margin: 2rem 0rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap; }
+  footer .redesNav {
+    padding: 1.7rem 0rem; }
+    footer .redesNav a img {
+      width: 20px;
+      height: 20px;
+      padding: 0rem 0.05rem;
+      margin-left: 0.2rem; }
+  footer .logoFooter {
+    width: 4rem;
+    height: 5rem; }
+  footer p {
+    color: #EDEDED;
+    padding: 0rem 1rem;
+    font-weight: 100;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    margin-left: 1.5rem;
+    text-align: center; }
+
+/* AREA CONTENIDO HOME */
+h2 {
+  color: #FFF200;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 5rem;
+  font-size: 8rem;
+  margin-top: 35rem;
+  text-align: center; }
+
+.bloqueServicio {
+  margin: 5rem 0rem 5rem 1.5rem;
+  justify-content: center; }
+  .bloqueServicio img {
+    width: 85%;
+    height: 85%;
+    transition: height 0.5s, width 0.5s; }
+    .bloqueServicio img:hover {
+      height: 87%;
+      width: 87%; }
+  .bloqueServicio p {
+    color: #EDEDED;
+    font-size: 2rem;
+    text-align: center;
+    text-transform: initial; }
+  .bloqueServicio h2 {
+    color: #FFF200;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 5rem;
+    font-size: 4rem;
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem; }
+  .bloqueServicio h3 {
+    color: #FFF200;
+    font-size: 6rem;
+    line-height: 50px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 1rem; }
+
+/* ERROR 404 */
+.bloqueError {
+  margin-top: 9rem; }
+  .bloqueError .imagenError {
+    width: 40rem; }
+  .bloqueError h1 {
+    font-size: 5rem;
+    color: #FFF200;
+    font-weight: 900; }
+  .bloqueError p {
+    font-size: 2rem;
+    color: #EDEDED;
+    font-weight: 700;
+    text-align: right; }
+  .bloqueError .imagenLogo {
+    width: 7rem; }
+
+html {
+  font-size: 62.5%; }
+
+/* ESTRUCTURA DE BODY HOME */
+.container-fluid {
+  padding: 0 3rem 0 3rem; }
+
+.container-fluid-total {
+  padding: 0; }
 
 /* BARRA MENU */
 header {
@@ -169,9 +265,7 @@ header {
   padding-top: 0.6rem; }
 
 ul {
-  margin-left: 0.5rem; }
-  ul li:hover ul {
-    display: block; }
+  padding: 0.5rem 0.5rem 0.1rem 0.5rem; }
 
 li {
   padding: 0.5rem 0.5rem 0.1rem 0.5rem;
@@ -193,13 +287,13 @@ li {
   font-weight: 700; }
 
 .zoomMenu {
-  transition: all 0.3s; }
+  transition: all 0.1s; }
   .zoomMenu:hover {
-    transform: scale(1.1, 1.1); }
+    transform: scale(1.05, 1.05); }
 
 .nav-link-actual {
   display: block;
-  padding: 0.5rem 1rem;
+  padding: 0.5rem;
   color: #FFF200;
   text-decoration: none;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out; }
@@ -259,7 +353,7 @@ li {
   display: block; }
   .bannerPrincipalPages img {
     width: 100%;
-    height: 400px; }
+    height: 550px; }
   .bannerPrincipalPages h1 {
     position: absolute;
     top: 50%;
@@ -282,8 +376,8 @@ li {
   font-size: 3rem;
   text-align: center;
   text-transform: initial;
-  line-height: 3rem;
-  margin: 3rem 3rem 1.5rem 2rem;
+  line-height: 4rem;
+  margin: 5rem 3rem 7rem 2rem;
   padding-left: 5rem;
   padding-right: 5rem; }
 
@@ -299,105 +393,6 @@ li {
   margin-top: 4rem;
   margin-left: 80rem; }
 
-/* AREA FOOTER */
-footer {
-  width: 100%;
-  margin: 2rem 0rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap; }
-  footer .redesNav {
-    padding: 1.7rem 0rem; }
-    footer .redesNav a img {
-      width: 20px;
-      height: 20px;
-      padding: 0rem 0.05rem;
-      margin-left: 0.2rem; }
-  footer .logoFooter {
-    width: 4rem;
-    height: 5rem; }
-  footer p {
-    color: #EDEDED;
-    padding: 0rem 1rem;
-    font-weight: 100;
-    font-size: 1.5rem;
-    margin-top: 1rem;
-    margin-left: 1.5rem;
-    text-align: center; }
-
-/* AREA CONTENIDO HOME */
-h2 {
-  color: #FFF200;
-  font-weight: 700;
-  text-transform: uppercase;
-  line-height: 5rem;
-  font-size: 8rem;
-  margin-top: 35rem;
-  text-align: center; }
-
-.bloqueServicio {
-  margin: 1rem 0rem 1rem 1.5rem;
-  justify-content: center; }
-  .bloqueServicio img {
-    width: 95%;
-    height: 95%;
-    transition: height 0.5s, width 0.5s; }
-    .bloqueServicio img:hover {
-      height: 100%;
-      width: 100%; }
-  .bloqueServicio p {
-    color: #EDEDED;
-    font-size: 2rem;
-    text-align: center;
-    text-transform: initial; }
-  .bloqueServicio h2 {
-    color: #FFF200;
-    font-weight: 700;
-    text-transform: uppercase;
-    line-height: 5rem;
-    font-size: 4rem;
-    text-align: center;
-    margin-top: 0px; }
-  .bloqueServicio h3 {
-    color: #FFF200;
-    font-size: 6rem;
-    line-height: 50px;
-    font-weight: 700;
-    text-align: center;
-    margin-bottom: 1rem; }
-
-/* ERROR 404 */
-.bloqueError {
-  margin-top: 9rem; }
-  .bloqueError .imagenError {
-    width: 40rem; }
-  .bloqueError h1 {
-    font-size: 5rem;
-    color: #FFF200;
-    font-weight: 900; }
-  .bloqueError p {
-    font-size: 2rem;
-    color: #EDEDED;
-    font-weight: 700;
-    text-align: right; }
-  .bloqueError .imagenLogo {
-    width: 7rem; }
-
-html {
-  font-size: 62.5%; }
-
-/* ESTRUCTURA DE BODY HOME */
-body {
-  font-family: 'Saira', sans-serif;
-  background-color: #171717; }
-
-.container-fluid {
-  padding: 0 3rem 0 3rem; }
-
-.container-fluid-total {
-  padding: 0; }
-
 /* -------------------RESPONSIVE - Hasta 1400px ------------------------ */
 @media only screen and (max-width: 1400px) and (min-width: 1200px) {
   html {
@@ -407,6 +402,9 @@ body {
     .bannerPrincipal video {
       width: 97.8%; }
   /* BANNER PAGES */
+  .bannerPrincipalPages img {
+    width: 100%;
+    height: 400px; }
   .primerParrafo {
     text-align: center;
     padding-left: 1rem;
@@ -447,6 +445,9 @@ body {
       .bannerPrincipal .textoBanner button:hover {
         width: 100%; }
   /* BANNER PAGE */
+  .bannerPrincipalPages img {
+    width: 100%;
+    height: 300px; }
   .bannerPrincipalPages .h1Page2 {
     font-size: 6rem;
     text-align: center; }
@@ -564,7 +565,7 @@ body {
     color: #EDEDED;
     text-align: center;
     text-transform: initial;
-    line-height: 3.5rem;
+    line-height: 4rem;
     width: 95%;
     margin-left: 3rem; }
   /* AREA CONTENIDO */
@@ -608,3 +609,7 @@ body {
 /* GENERAL */
 * {
   box-sizing: border-box; }
+
+body {
+  font-family: 'Saira', sans-serif;
+  background-color: #171717; }
