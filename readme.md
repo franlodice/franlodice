@@ -1,5 +1,5 @@
-# Franlodice - Agencia Audiovisual
+# Franlodice
 ***
-Web desarrollada para FranLoDice Media Agency. Creación de contenido, Producción y Post Producción Audiovisual
+Web desarrollada para Francisco Gutierrez. Creación de contenido, Producción y Post Producción Audiovisual
 ***
 Proyecto final - Desarrollo Web - Coderhouse - 2021
